@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
       <p>
-        Welcome to FlexiConvert, your ultimate destination for seamless multimedia conversion. Transform your files with ease, whether they're images, audio files, videos, or documents. FlexiConvert offers you unparalleled freedom, all at absolutely no cost! Say goodbye to limitations and hello to limitless creative possibilities.
+        Welcome to FlexiConvert, your ultimate destination for seamless multimedia conversion. Transform your files with ease, whether they&apos;re images, audio files, videos, or documents. FlexiConvert offers you unparalleled freedom, all at absolutely no cost! Say goodbye to limitations and hello to limitless creative possibilities.
       </p>
       <div className="space-y-2">
         <h2 className="text-xl md:text-2xl font-medium text-gray-700">
@@ -49,7 +49,7 @@ export default function About() {
           🚀 Unlimited Usage, No Strings Attached:
         </h2>
         <p>
-          FlexiConvert believes in empowering your creativity without hidden fees or restrictions. Convert as many files as your heart desires, and it won't cost you a dime. Experience true freedom with FlexiConvert.
+          FlexiConvert believes in empowering your creativity without hidden fees or restrictions. Convert as many files as your heart desires, and it won&apos;t cost you a dime. Experience true freedom with FlexiConvert.
         </p>
       </div>
 
@@ -58,7 +58,7 @@ export default function About() {
           🌐 Accessible Anywhere:
         </h2>
         <p>
-          Access FlexiConvert from any device with an internet connection. Whether you're on your computer, tablet, or smartphone, you can use our platform with ease. FlexiConvert goes wherever you go.
+          Access FlexiConvert from any device with an internet connection. Whether you&apos;re on your computer, tablet, or smartphone, you can use our platform with ease. FlexiConvert goes wherever you go.
         </p>
       </div>
 
@@ -85,13 +85,13 @@ export default function About() {
           📈 Constantly Evolving:
         </h2>
         <p>
-          FlexiConvert is committed to innovation and staying ahead of the curve. Expect regular updates and new features to keep your multimedia experience fresh and exciting. We're always evolving to meet your needs.
+          FlexiConvert is committed to innovation and staying ahead of the curve. Expect regular updates and new features to keep your multimedia experience fresh and exciting. We&apos;re always evolving to meet your needs.
         </p>
       </div>
 
       <div className="space-y-2">
         <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-          🌟 It's Free, It's Powerful, It's FlexiConvert:
+          🌟 It&apos;s Free, It&apos;s Powerful, It&apos;s FlexiConvert:
         </h2>
         <p>
           Experience the freedom to convert images, audio, video, and documents without boundaries. Elevate your multimedia projects with the unlimited potential of FlexiConvert. Join the revolution today!
