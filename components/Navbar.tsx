@@ -37,7 +37,7 @@ export default function Navbar({}): any {
             About
           </Button>
         </Link>
-        <Link href="/privacy-policy">
+        <Link href="/projects">
           <Button variant="ghost" className="font-semibold text-md">
             Projects
           </Button>
