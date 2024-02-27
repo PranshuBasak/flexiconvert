@@ -8,9 +8,12 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'FlexiConvert - Free Unlimited File Converter',
-  description: `Unlock boundless creativity with FlexiConvert – the premier online solution for limitless and complimentary multimedia transformation. Seamlessly convert images, audio, and videos with unparalleled ease and flexibility, without any constraints. Empower your content creation journey today with FlexiConvert, and elevate your projects like never before.
-
-  FlexiConvert offers a comprehensive suite of conversion tools, enabling users to effortlessly modify file formats and enhance their digital assets. Whether you're a professional designer, a budding content creator, or simply looking to streamline your media library, FlexiConvert provides the versatility and reliability you need to achieve your vision`,
+  description: `FlexiConvert offers a comprehensive suite of conversion tools, enabling users to effortlessly modify file formats and enhance their digital assets. Whether you're a professional designer, a budding content creator, or simply looking to streamline your media library, FlexiConvert provides the versatility and reliability you need to achieve your vision
+  Image conversion: Convert between various image formats such as JPEG, PNG, GIF, BMP, TIFF, etc.
+  Video conversion: Convert video files between different formats such as MP4, AVI, MOV, MKV, etc., and adjust parameters like resolution, frame rate, and bitrate.
+  Audio conversion: Convert audio files between different formats such as MP3, WAV, AAC, FLAC, etc., and adjust parameters like bitrate and sample rate.
+  Document conversion: Convert documents between different formats such as PDF, DOCX, TXT, RTF, etc., and perform tasks like merging, splitting, and compressing PDF files.
+  `,
   creator: 'Pranshu Basak',
   keywords:
     'image converter, video converter, audio converter, unlimited image converter, unlimited video converter',
@@ -23,7 +26,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <meta name="google-site-verification" content="V8lmEvFOdYBlChgR6pYABBZBhI1EFnPb1YuxTTdHXMU" />
       <body className={inter.className}>
         <Navbar />
         <Toaster />
