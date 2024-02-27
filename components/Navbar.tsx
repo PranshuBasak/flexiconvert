@@ -12,6 +12,9 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet';
+import { FiHome } from 'react-icons/fi';
+import { MdOutlineInfo } from 'react-icons/md';
+import { PiProjectorScreenChartBold } from 'react-icons/pi';
 
 export default function Navbar({}): any {
   return (
@@ -69,6 +72,9 @@ export default function Navbar({}): any {
                     variant="link"
                     className="font-semibold text-md w-full"
                   >
+                    <span className='px-2'>
+                        <FiHome />
+                    </span>
                     Home
                   </Button>
                 </Link>
@@ -77,6 +83,9 @@ export default function Navbar({}): any {
                     variant="link"
                     className="font-semibold text-md w-full"
                   >
+                    <span className='px-2'>
+                        <MdOutlineInfo />
+                    </span>
                     About
                   </Button>
                 </Link>
@@ -85,7 +94,21 @@ export default function Navbar({}): any {
                     variant="link"
                     className="font-semibold text-md w-full"
                   >
+                    <span className='px-2'>
+                        <PiProjectorScreenChartBold />
+                    </span>
                     Projects
+                  </Button>
+                </Link>
+                <Link href="https://pranshubasak.co/" target='_blank'>
+                  <Button
+                    variant="link"
+                    className="font-semibold text-md w-full"
+                  >
+                    <span className='px-2'>
+                        <CgProfile />
+                    </span>
+                    Portfolio
                   </Button>
                 </Link>
               </div>

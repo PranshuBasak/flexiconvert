@@ -10,7 +10,7 @@ export default function Home() {
           FlexiConvert Your Files Now
         </h1>
         <p className="text-gray-400 text-md md:text-lg text-center md:px-24 xl:px-44 2xl:px-52">
-          Your all-in-one solution for free, unlimited image, video, audio, and document conversion, offering batch processing and support for a wide range of formats.
+          Your all-in-one solution for free, unlimited image, video and audio conversion, offering batch processing and support for a wide range of formats.
         </p>
       </div>
 
