@@ -37,16 +37,16 @@ export default function Navbar({}): any {
             About
           </Button>
         </Link>
-        <Link href="/projects">
+        <Link href="/privacy-policy">
           <Button variant="ghost" className="font-semibold text-md">
-            Projects
+            Privacy
           </Button>
         </Link>
       </div>
       <Link href="https://pranshubasak.co/" target='_blank'>
         <Button
           variant="default"
-          className="rounded-full w-fit bg-blue-500 gap-2 items-center hidden md:flex"
+          className="rounded-full w-fit bg-[#6581f9] gap-2 items-center hidden md:flex"
           size="lg"
         >
           <span>Portfolio</span>
@@ -89,7 +89,7 @@ export default function Navbar({}): any {
                     About
                   </Button>
                 </Link>
-                <Link href="/projects">
+                <Link href="/privacy-policy">
                   <Button
                     variant="link"
                     className="font-semibold text-md w-full"
@@ -97,7 +97,7 @@ export default function Navbar({}): any {
                     <span className='px-2'>
                         <PiProjectorScreenChartBold />
                     </span>
-                    Projects
+                    Privacy
                   </Button>
                 </Link>
                 <Link href="https://pranshubasak.co/" target='_blank'>
