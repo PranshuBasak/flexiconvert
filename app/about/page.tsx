@@ -2,8 +2,11 @@ import { PackageExplanation } from "@/components/PackageExplanation";
 import { packageExplanations } from "@/lib/constants";
 import { BsArrowRight } from "react-icons/bs";
 
+
+
 export default function About() {
   return (
+    
     <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
       <p>
         Welcome to FlexiConvert, your ultimate destination for seamless multimedia conversion. Transform your files with ease, whether they&apos;re images, audio files, videos, or documents. FlexiConvert offers you unparalleled freedom, all at absolutely no cost! Say goodbye to limitations and hello to limitless creative possibilities.

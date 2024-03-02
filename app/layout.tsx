@@ -1,13 +1,14 @@
 import Navbar from '@/components/Navbar';
 import './globals.css';
-import type { Metadata } from 'next';
+import type { Metadata , Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import { Toaster } from '@/components/ui/toaster';
-import { BackgroundGradientAnimation } from '@/components/ui/background-gradient-animation';
+
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  manifest: "/manifest.json",
   title: 'FlexiConvert - Free Unlimited File Converter',
   description: `FlexiConvert offers a comprehensive suite of conversion tools, enabling users to effortlessly modify file formats and enhance their digital assets. Whether you're a professional designer, a budding content creator, or simply looking to streamline your media library, FlexiConvert provides the versatility and reliability you need to achieve your vision
   Image conversion: Convert between various image formats such as JPEG, PNG, GIF, BMP, TIFF, etc.
@@ -20,6 +21,10 @@ export const metadata: Metadata = {
     'image converter, video converter, audio converter, unlimited image converter, unlimited video converter',
 };
 
+export const viewport: Viewport = {
+  themeColor: "#6581f9",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -30,11 +35,9 @@ export default function RootLayout({
       <body className={inter.className}>
           <Navbar />
           <Toaster />
-        <BackgroundGradientAnimation>
           <div className="pt-32 min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl">
             {children}
           </div>
-        </BackgroundGradientAnimation>
       </body>
     </html>
   );
