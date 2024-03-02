@@ -1,5 +1,5 @@
 {   
-    "id": "2",
+    "id": "3",
     "name": "FlexiConvert",
     "short_name": "FlexiConvert",
     "description": "Your all-in-one solution for free, unlimited image, video and audio conversion, offering batch processing and support for a wide range of formats.",
@@ -451,6 +451,12 @@
       {
         "src": "ios/1024.png",
         "sizes": "1024x1024"
+      },
+      {
+        "src": "ios/192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
       }
     ],
     "theme_color": "#6581f9",
